@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+a:hover{
+  opacity: 0.8;
+}
+Header a, Header a:hover{
+  color: white;
+  text-decoration: none;
+}
+Header{
+  background-image: url(../img/Header.png);
+  background-size: cover;
+  background-position: top;
+}
+nav#NavB{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+nav{
+  font-size: 0.75em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+div.Titulo{
+  height: 110vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+div.Titulo h1{
+  font-size: 4.53em;
+}
+div.Titulo h1 span{
+  color: #88cb39;
+}
+div.Titulo p, div.Titulo a{
+  font-size: 1.13em;
+}
+div.Titulo a{
+   border-radius: 50px;
+   background-color: #88cb39;
+   padding: 1.5%;
+}
+
+div.Middle{
+  background-color: white;
+}
+div.TituloM{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+div.TituloM p{
+  font-size: 0.8em;
+  color: #5b5b5b;
+}
+div.TituloM h2{
+  font-size: 2.46em;
+  color: #333333;
+}
+div.row{
+  align-items: center;
+}
+div.ImgTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.ImgTitle h3{
+  font-size: 1.33em;
+  color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.Subservicios{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+div.Subservicios p{
+  font-size: 0.86em;
+}
+div.Subservicios a{
+  border-radius: 50px;
+  border: 1px solid #262626;
+  color: #262626;
+  font-size: 0.86em;
+  padding: 1.5%;
+}
+
+footer{
+  background-color: #26242b;
+  color: white;
+}
+div.TituloF{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+div.TituloF p{
+  font-size: 0.8em;
+}
+div.TituloF h2{
+  font-size: 2.46em;
+}
+div.Redes{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+  justify-content: center;
+}
+p.Red1{
+  font-size: 1.13em;
+}
+p.Red2{
+  font-size: 0.93em;
+}
+div.Redes a{
+  font-size: 1em;
+  color: #807f82;
+  text-decoration: underline;
+}
